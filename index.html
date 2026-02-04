@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gagandeep C M | Portfolio</title>
+    <!-- ADD YOUR favicon.png FILE HERE -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="description"
+        content="Portfolio of Gagandeep C M - Python Full Stack Developer and AI & Data Science enthusiast turning ideas into scalable digital products.">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div id="intro-overlay">
+        <div class="intro-name">
+            GAGANDEEP'S PORTFOLIO
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Main Content Wrapper to facilitate zoom effect -->
+    <div id="wrapper">
+        <canvas id="bg-canvas"></canvas>
+        <div class="noise-overlay"></div>
+
+        <header class="glass-nav">
+            <a href="#" class="logo-link">
+                <div class="logo">
+    <span class="gd-logo">GD</span>
+    <span class="accent-dot">.</span>
+    </div>
+
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link btn-glow">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero" class="hero-section">
+                <div class="hero-content">
+                    <p class="greeting">Hello, I am</p>
+                    <h1 class="hero-name" data-text="Gagandeep C M">Gagandeep C M</h1>
+                    <h1 class="headline">
+                        I learn fast and <br>
+                        <span class="highlight-text typing-text"></span>
+                    </h1>
+                    <p class="subtitle">Python Full Stack | AI & Data Science</p>
+
+                    <div class="cta-container">
+                        <a href="#projects" class="primary-btn">View My Work <i class="bi bi-arrow-right"></i></a>
+                        <a href="#contact" class="secondary-btn">Let's Talk</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Gagandeep1717" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gagandeepcm" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                    <a href="mailto:cmgagandeep17@gmail.com" class="social-icon"><i class="bi bi-envelope-fill"></i></a>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <h2 class="section-title" data-text="About Me">About Me</h2>
+                <div class="container about-container">
+                    <div class="about-text glass-card reveal-on-scroll left">
+
+                        <p>I'm <span class="accent">Gagandeep C M</span>, a Python-focused developer driven by a strong interest in <span class="accent">Data</span> and <span class="accent">Artificial Intelligence</span>. I enjoy breaking down complex problems and turning them into practical, working Python solutions using clean, efficient, and scalable code.</p>
+
+                        <p>I have hands-on experience with Python, SQL, Django, REST APIs, NumPy, Pandas, Matplotlib, Power BI, React, and JavaScript, and I've built projects ranging from breast cancer detection using Machine Learning and CNNs to a custom Transformer-based Large Language Model developed from scratch, where I worked deeply on both data and model architecture.</p>
+
+                        <p>I'm especially drawn to <span class="accent">data-driven development</span>, intelligent systems, and pattern recognition. I learn by building, experimenting, failing, and improving—using documentation, trial and error, and real projects to understand how things actually work, not just how to use them.</p>
+
+                        <p>As a Python Developer and fresher, my aim is to work on meaningful problems, grow with a team that values logic and clarity, and consistently sharpen my technical and problem-solving skills while building software that is reliable, thoughtful, and impactful.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="section" style="min-height: auto; padding: 40px 20px;">
+                <div class="container" style="max-width: 600px;">
+                    <div class="glass-card reveal-on-scroll" style="text-align: center; padding: 40px;">
+                        <i class="bi bi-file-earmark-person-fill"
+                            style="font-size: 3rem; color: #2997ff; margin-bottom: 20px; display: block;"></i>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 15px;">My Resume</h3>
+                        <p style="color: var(--text-dim); margin-bottom: 25px;">Get a detailed overview of my skills,
+                            experience, and qualifications.</p>
+                        <div class="resume-btn-container"
+                            style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                            <!-- ADD YOUR RESUME PDF FILE HERE - Replace "Gagandeep_Resume.pdf" with your actual filename -->
+                            <a href="Gagandeep_CM_DATA.pdf" target="_blank" class="primary-btn"
+                                style="display: inline-flex; align-items: center; gap: 8px;">
+                                <i class="bi bi-eye-fill"></i> View Resume
+                            </a>
+                            <a href="Gagandeep_CM_DATA.pdf" download class="secondary-btn"
+                                style="display: inline-flex; align-items: center; gap: 8px;">
+                                <i class="bi bi-download"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="container" style="max-width: 900px;">
+
+                    <!-- B.E -->
+                    <div class="glass-card reveal-on-scroll" style="margin-bottom: 20px;">
+                        <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
+                            <!-- ADD YOUR COLLEGE LOGO HERE - Replace "svce-logo.png" with your actual logo file -->
+                            <img src="svce logo.png" alt="Sri Venkateshwara College of Engineering"
+                                style="width: 80px; height: 80px; object-fit: contain; background: #fff; border-radius: 10px; padding: 5px;">
+                            <div>
+                                <h3 style="color: var(--primary-accent); margin-bottom: 5px;">Bachelor of Engineering in Computer Science and Engineering</h3>
+                                <p style="font-size: 1.1rem; margin-bottom: 5px;">Sri Venkateshwara College of Engineering, Bengaluru</p>
+                                <p style="color: var(--text-dim);">2021 - 2025</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Grade 12 -->
+                    <div class="glass-card reveal-on-scroll delay-1" style="margin-bottom: 20px;">
+                        <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
+                            <!-- ADD YOUR COLLEGE LOGO HERE - Replace "sahyadri-logo.png" with your actual logo file -->
+                            <img src="shayadri_logo.png" alt="Sahyadri College"
+                                style="width: 80px; height: 80px; object-fit: contain; background: #fff; border-radius: 10px; padding: 5px;">
+                            <div>
+                                <h3 style="color: var(--primary-accent); margin-bottom: 5px;">Grade 12 (PCMB)</h3>
+                                <p style="font-size: 1.1rem; margin-bottom: 5px;">Sahyadri College, Kolar</p>
+                                <p style="color: var(--text-dim);">2019 - 2021</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- High School -->
+                    <div class="glass-card reveal-on-scroll delay-2">
+                        <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
+                            <!-- ADD YOUR SCHOOL LOGO HERE - Replace "greenvalley-logo.png" with your actual logo file -->
+                            <img src="gvps_logo.png" alt="Green Valley Public School"
+                                style="width: 80px; height: 80px; object-fit: contain; background: #fff; border-radius: 10px; padding: 5px;">
+                            <div>
+                                <h3 style="color: var(--primary-accent); margin-bottom: 5px;">High School</h3>
+                                <p style="font-size: 1.1rem; margin-bottom: 5px;">Green Valley Public School, Kolar</p>
+                                <p style="color: var(--text-dim);">2018 - 2019</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Experience / Internship Section -->
+            <section id="experience" class="section">
+                <h2 class="section-title">Experience</h2>
+                <div class="container" style="max-width: 900px;">
+                    <div class="glass-card reveal-on-scroll">
+                        <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+                            <!-- ADD COMPANY LOGO HERE - Replace "pentagon-logo.png" with actual logo file -->
+                            <img src="pentogon-logo.png" alt="Pentagon Space"
+                                style="width: 80px; height: 80px; object-fit: contain; border-radius: 10px;">
+                            <div style="flex: 1;">
+                                <h3 style="color: var(--primary-accent); margin-bottom: 5px;">Python Full Stack Trainee
+                                </h3>
+                                <p style="font-size: 1.1rem; margin-bottom: 5px;">Pentagon Space, Bengaluru</p>
+                                <p style="color: var(--text-dim); margin-bottom: 15px;">Jun 2025 - Jan 2026</p>
+                                <ul style="line-height: 1.8; color: var(--text-dim); padding-left: 20px;">
+                                    <li style="margin-bottom: 10px;">Worked as a Python Full Stack Developer Trainee,
+                                        gaining hands-on experience in building web applications using <span
+                                            class="accent">Django</span>, <span class="accent">HTML</span>, <span
+                                            class="accent">CSS</span>, <span class="accent">JavaScript</span>, and <span
+                                            class="accent">MySQL</span>.</li>
+                                    <li style="margin-bottom: 10px;">Developed dynamic web pages, integrated REST APIs,
+                                        and managed backend logic and databases.</li>
+                                    <li style="margin-bottom: 10px;">Learned Python programming, solving <span
+                                            class="accent">30+ logic and pattern-based problems</span> to strengthen
+                                        core problem-solving skills.</li>
+                                    <li style="margin-bottom: 10px;">Gained a strong understanding of <span
+                                            class="accent">Data Structures and Algorithms</span> fundamentals, focusing
+                                        on logical thinking and efficient coding practices.</li>
+                                    <li>Collaborated with a team on real-time projects, improving full stack development
+                                        and teamwork skills.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section">
+                <h2 class="section-title">Certifications & Courses</h2>
+                <div class="container"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; max-width: 1000px;">
+
+                    <!-- Certification 1: Columbia OpenAI -->
+                    <a href="https://badges.plus.columbia.edu/831a68b5-0aae-49fd-ba0b-f7de8ea53cd1#acc.YfspWDPO"
+                        target="_blank" class="cert-card glass-card reveal-on-scroll">
+                        <div class="cert-logo"
+                            style="background: linear-gradient(135deg, #0d6efd, #0099ff); display: flex; align-items: center; justify-content: center; height: 120px; border-radius: 10px; margin-bottom: 15px;">
+                            <i class="bi bi-patch-check-fill" style="font-size: 3rem; color: #fff;"></i>
+                        </div>
+                        <h4 style="font-size: 1.1rem; margin-bottom: 8px; font-weight: 600;">Prompt Engineering & Programming with OpenAI</h4>
+                        <p style="color: #6ea8fe; font-size: 0.9rem;">Columbia University | Aug 2025</p>
+                    </a>
+
+                    <!-- Certification 2: Tata GenAI -->
+                    <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_z7cPasnaSeaemb458_1755878349643_completion_certificate.pdf" target="_blank"
+                        class="cert-card glass-card reveal-on-scroll delay-1">
+                        <div class="cert-logo"
+                            style="background: #fff; display: flex; align-items: center; justify-content: center; height: 120px; border-radius: 10px; margin-bottom: 15px;">
+                            <span style="font-size: 1.8rem; font-weight: 700; color: #6F2DA8;">TATA</span>
+                        </div>
+                        <h4 style="font-size: 1.1rem; margin-bottom: 8px; font-weight: 600;">Tata GenAI Powered Data Analytics</h4>
+                        <p style="color: #6ea8fe; font-size: 0.9rem;">Forage | 2025</p>
+                    </a>
+
+                    <!-- Certification 3: Tata Data Viz -->
+                    <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_z7cPasnaSeaemb458_1756345375631_completion_certificate.pdf" target="_blank"
+                        class="cert-card glass-card reveal-on-scroll delay-2">
+                        <div class="cert-logo"
+                            style="background: #fff; display: flex; align-items: center; justify-content: center; height: 120px; border-radius: 10px; margin-bottom: 15px;">
+                            <span style="font-size: 1.8rem; font-weight: 700; color: #6F2DA8;">TATA</span>
+                        </div>
+                        <h4 style="font-size: 1.1rem; margin-bottom: 8px; font-weight: 600;">Tata Data Visualisation: Empowering Business with Effective Insights</h4>
+                        <p style="color: #6ea8fe; font-size: 0.9rem;">Forage | 2025</p>
+                    </a>
+
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="container"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1100px;">
+
+                    <!-- Project 1: Breast Cancer Detection -->
+                    <!-- ADD YOUR GITHUB LINK HERE if available -->
+                    <a href="https://github.com/Gagandeep1717/breast_cancer_dectiction_proj" target="_blank"
+                        class="project-card-new glass-card reveal-on-scroll">
+                        <div class="project-image"
+                            style="background: linear-gradient(135deg, #e74c3c, #c0392b); height: 180px; border-radius: 12px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                            <i class="bi bi-heart-pulse-fill" style="font-size: 4rem; color: #fff;"></i>
+                        </div>
+                        <h3 style="color: #e74c3c; font-size: 1.3rem; margin-bottom: 15px; font-weight: 600;">Breast Cancer Detection using ML & CNN</h3>
+                        <p style="color: var(--text-dim); line-height: 1.7; font-size: 0.95rem;">Conducted a comparative study on breast cancer classification using Random Forest, CNNs, and InceptionV3 with labeled medical images. Improved model performance through data augmentation and evaluated results using precision, recall, and F1-score. Observed that Random Forest performed efficiently on structured data, while CNN-based models handled complex image patterns more effectively.</p>
+                        <div class="tags" style="margin-top: 15px;">
+                            <span>Python</span><span>Scikit-learn</span><span>OpenCV</span><span>Matplotlib</span>
+                        </div>
+                    </a>
+
+                    <!-- Project 2: Custom Transformer LLM -->
+                    <!-- ADD YOUR GITHUB LINK HERE if available -->
+                    <a href="https://github.com/Gagandeep1717/transform_LLM_proj" target="_blank"
+                        class="project-card-new glass-card reveal-on-scroll delay-1">
+                        <div class="project-image"
+                            style="background: linear-gradient(135deg, #9b59b6, #8e44ad); height: 180px; border-radius: 12px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                            <i class="bi bi-cpu-fill" style="font-size: 4rem; color: #fff;"></i>
+                        </div>
+                        <h3 style="color: #9b59b6; font-size: 1.3rem; margin-bottom: 15px; font-weight: 600;">Custom Transformer-based Large Language Model</h3>
+                        <p style="color: var(--text-dim); line-height: 1.7; font-size: 0.95rem;">Built a Transformer-based language model from scratch, implementing core components such as token embeddings, positional encoding, multi-head self-attention, and feedforward networks. Designed the full training and inference pipeline along with an end-to-end tokenization and preprocessing workflow. This project strengthened my understanding of modern NLP architectures and model internals.</p>
+                        <div class="tags" style="margin-top: 15px;">
+                            <span>Python</span><span>NumPy</span><span>Scikit-learn</span><span>Deep Learning</span>
+                        </div>
+                    </a>
+
+                    <!-- Project 3: Job Portal System -->
+                    <!-- ADD YOUR GITHUB LINK HERE if available -->
+                    <a href="https://github.com/Gagandeep1717/Job_Portal_App" target="_blank"
+                        class="project-card-new glass-card reveal-on-scroll delay-2">
+                        <div class="project-image"
+                            style="background: linear-gradient(135deg, #3498db, #2980b9); height: 180px; border-radius: 12px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                            <i class="bi bi-briefcase-fill" style="font-size: 4rem; color: #fff;"></i>
+                        </div>
+                        <h3 style="color: #3498db; font-size: 1.3rem; margin-bottom: 15px; font-weight: 600;">Job Portal System</h3>
+                        <p style="color: var(--text-dim); line-height: 1.7; font-size: 0.95rem;">Developed a full-stack job portal with separate authentication for candidates and recruiters. Recruiters can post and manage jobs, review applications, and update candidate status, while candidates can browse roles, apply, and track applications in real time. The system streamlines the recruitment workflow with secure authentication and efficient database management.</p>
+                        <div class="tags" style="margin-top: 15px;">
+                            <span>Django</span><span>HTML/CSS</span><span>JavaScript</span><span>MySQL</span>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+            <section id="publications" class="section">
+                <h2 class="section-title"><i class="bi bi-journals"></i> Publications</h2>
+                <p style="color: var(--text-dim); margin-bottom: 40px;">Published research works and papers</p>
+                <div class="container" style="max-width: 900px;">
+
+                    <!-- Publication 1: Breast Cancer Detection -->
+                    <div class="glass-card reveal-on-scroll publication-card" style="margin-bottom: 30px;">
+                        <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+                            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-journal-text" style="font-size: 2.5rem; color: #fff;"></i>
+                            </div>
+                            <div style="flex: 1;">
+                                <h3 style="color: #2997ff; font-size: 1.4rem; margin-bottom: 10px; font-weight: 600;">
+                                    Comparative Analysis for Detection of Breast Cancer Using Machine Learning and Convolutional Neural Network (CNN)</h3>
+                                <p style="color: var(--text-color); margin-bottom: 5px;">C. M. Gagandeep, S. Chithra Shree, Ilham Ahmed, R. Hasini & M. S. Hema</p>
+                                <p style="color: var(--text-dim); font-style: italic; margin-bottom: 15px;">4th International Conference on Computer Vision and Robotics (CVR 2024)</p>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 15px;">
+                            <button class="abstract-toggle" onclick="toggleAbstract('abstract1')"
+                                style="background: #2d3436; color: #fff; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 0.9rem;">Show
+                                Abstract</button>
+                            <a href="https://doi.org/10.1007/978-981-97-8868-2_38"
+                                target="_blank" class="view-pub-btn"
+                                style="background: #00b894; color: #fff; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 5px;">View
+                                Publication <i class="bi bi-arrow-right"></i></a>
+                        </div>
+
+                        <div id="abstract1" class="abstract-content"
+                            style="display: none; background: rgba(0,0,0,0.3); padding: 20px; border-radius: 10px; border-left: 3px solid #2997ff;">
+                            <p style="font-weight: 600; margin-bottom: 10px;">Abstract:</p>
+                            <p style="color: var(--text-dim); line-height: 1.7;">Breast cancer remains a major global health issue, where early detection plays a crucial role in improving survival and treatment outcomes. This project focuses on using computer-aided prediction to support doctors in making more accurate decisions and to help patients improve their quality of life. The study compares three different approaches for breast cancer detection—Random Forest, Convolutional Neural Networks (CNN), and InceptionV3 transfer learning—using medical image data. Texture-based features are extracted from breast images using Local Binary Pattern (LBP) to capture important tissue characteristics. All three models were implemented and evaluated using metrics such as accuracy, precision, recall, and F1-score. The results show that the Random Forest classifier performed the best, achieving an accuracy of 0.9108, followed by the CNN model with 0.8535 accuracy, while InceptionV3 showed lower performance at 0.5924. This highlights how traditional machine-learning models can sometimes outperform deep learning approaches, especially when working with structured, texture-based features.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+             <section id="skills" class="section">
+                <h2 class="section-title">Skills</h2>
+                <div class="container skills-wrapper">
+                    <div class="skill-category reveal-on-scroll">
+                        <h3>Languages & Core</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-container">
+                                <div class="skill-info"><span>Python</span><span>95%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-info"><span>SQL</span><span>90%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-info"><span>Django</span><span>90%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category reveal-on-scroll delay-1">
+                        <h3>Data & Frontend</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-container">
+                                <div class="skill-info"><span>Pandas / NumPy / Matplotlib / Seaborn / Power BI</span><span>80%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-info"><span>REST API</span><span>70%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-info"><span>React / JavaScript</span><span>70%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contact" class="section">
+                <div class="container contact-wrapper reveal-on-scroll" style="max-width: 700px;">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 30px;">
+                        I enjoy building reliable, data-driven applications with <span class="accent">Python</span>,
+                        <span class="accent">Web technologies</span>, and <span class="accent">AI & Data
+                            Science</span>.<br><br>
+                        Always open to meaningful discussions, learning opportunities, and impactful work.
+                    </p>
+                    <a href="https://www.linkedin.com/in/gagandeepcm" target="_blank" class="primary-btn pulse-btn"
+                        style="display: inline-flex; align-items: center; gap: 10px;">
+                        Connect
+                    </a>
+
+                    <div class="social-links" style="margin-top: 30px;">
+                        <a href="https://www.linkedin.com/in/gagandeepcm" target="_blank" class="social-icon"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/Gagandeep1717" target="_blank" class="social-icon"><i
+                                class="bi bi-github"></i></a>
+                        <a href="mailto:cmgagandeep17@gmail.com" class="social-icon"><i
+                                class="bi bi-envelope-fill"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2026 Gagandeep C M. </p>
+            </footer>
+        </main>
+
+        <script src="main.js"></script>
+    </div> <!-- End Wrapper -->
+
+    <!-- Back to Top Button -->
+    <button id="
